@@ -1,7 +1,7 @@
 // app/(tabs)/topics/[topic].tsx
 import { useLocalSearchParams } from 'expo-router';
 import { View, Text, FlatList, StyleSheet } from 'react-native';
-import suggestionsData, { Topic } from '@/data/suggestions';
+import suggestionsData, { Topic } from '@/data/TRsuggestions';
 
 export default function TopicScreen() {
   const { topic } = useLocalSearchParams();

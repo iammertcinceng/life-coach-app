@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import { View, Button, Alert, Platform } from 'react-native';
 import * as Notifications from 'expo-notifications';
 import Constants from 'expo-constants';
-import suggestionsData from '../data/suggestions'; // Doğru yoldan içe aktarın
+import suggestionsData from '../data/TRsuggestions'; // Doğru yoldan içe aktarın
 
 export default function NotificationSetup() {
   useEffect(() => {

@@ -1,8 +1,4 @@
 // assets/data/suggestions.ts
-export interface Suggestion {
-  title: string;
-  text: string;
-}
 
 export type Topic =
   | "health"
@@ -11,9 +7,14 @@ export type Topic =
   | "sports"
   | "personal_development";
 
-interface TopicData {
+export interface TopicData {
   name: string;
   suggestions: Suggestion[];
+}
+
+export interface Suggestion {
+  title: string;
+  text: string;
 }
 
 const suggestionsData: Record<Topic, TopicData> = {
